@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style2048.css"/>
+</head>
+<body>
+    <div class="title">Game - 2048</div>
+    <div class="main_container" >
+
+        <div class="code" id="code" style="display: none;">1561sd</div>
+        
+
+        <div class="choise_menu">
+<!-- -------------------------------------------------------------------- -->
+            <button class="choise_button" id="singleplayerBTN">
+                Single player
+            </button>
+            <button class="choise_button" id="multiplayerBTN">
+                Multiplayer
+            </button>
+<!-- -------------------------------------------------------------------- -->
+            <button class="choise_button" id="createGameBTN" style="display: none;">
+                Create
+            </button>
+            <div class = "join" style="display: none;">
+                <input class = "join_input" id = "joinCode" type="text" placeholder="Enter code">
+                <button class="choise_button" id="joinGameBTN" >
+                    Join
+                </button>
+            </div>
+            
+<!-- -------------------------------------------------------------------- -->
+
+        </div>
+        <div class="game_field" id="game_field"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@8.0.0/dist/browser/signalr.min.js"></script>
+    <script src="js/script2048.js" type="module"></script>
+</body>
+</html>

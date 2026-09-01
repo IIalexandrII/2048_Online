@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "76+i+z9+vCw=",
+  "success": true,
+  "projectFilePath": "D:\\siteServer\\back\\GameBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

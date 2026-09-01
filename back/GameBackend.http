@@ -1,0 +1,11 @@
+@Address = http://localhost:5179
+
+GET {{Address}}/myip/
+X-API-Key: hellohello
+###
+
+GET {{Address}}/myip/
+###
+
+GET {{Address}}/myip/
+X-API-Key: 132

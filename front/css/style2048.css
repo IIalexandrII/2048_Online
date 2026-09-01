@@ -1,0 +1,55 @@
+.game_field {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 15vmin);
+    grid-template-rows: repeat(4, 15vmin);
+    gap: 2vmin;
+
+    grid-column: 2 / 3; grid-row: 2 / 3; 
+}
+
+.cell {
+    background-color:rgb(45,45,45) ;
+    border-radius: 2vmin;
+}
+
+.tile {
+    --x:0;
+    --y:0;
+    --bgColor:240deg;
+
+    position: absolute;
+    top: calc(var(--y)*(15vmin + 2vmin));
+    left: calc(var(--x)*(15vmin + 2vmin));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15vmin;
+    height: 15vmin;
+    border-radius: 2vmin;
+
+    font-family: 'Arial', sans-serif;
+    font-size: 9vmin;
+    font-weight: bold;
+
+    background-color: hsl(var(--bgColor), 50%, 50%);
+   color: aliceblue;
+
+    user-select: none;
+
+    transition: all 0.2s ease-in-out;
+    animation: create 0.2s ease-in-out;
+}
+
+@keyframes create {
+    0% {
+        transform: scale(0.1) rotate(360deg);
+        opacity: 0;
+    }
+    100%{
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
+   }
+}
