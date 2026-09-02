@@ -1,0 +1,25 @@
+# Build output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.vspscc
+*.vssscc
+
+# Package management
+packages/
+*.nupkg
+
+# Publish profiles (temporary user settings)
+Properties/PublishProfiles/*.pubxml.user
+
+secrets.json
+
+# Logs
+*.log
+logs/
+
+.vscode/

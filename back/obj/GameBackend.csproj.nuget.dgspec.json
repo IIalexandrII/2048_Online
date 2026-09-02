@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\siteServer\\back\\GameBackend.csproj": {}
+    "D:\\Projects\\siteServer\\back\\GameBackend.csproj": {}
   },
   "projects": {
-    "D:\\siteServer\\back\\GameBackend.csproj": {
+    "D:\\Projects\\siteServer\\back\\GameBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\siteServer\\back\\GameBackend.csproj",
+        "projectUniqueName": "D:\\Projects\\siteServer\\back\\GameBackend.csproj",
         "projectName": "GameBackend",
-        "projectPath": "D:\\siteServer\\back\\GameBackend.csproj",
+        "projectPath": "D:\\Projects\\siteServer\\back\\GameBackend.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\siteServer\\back\\obj\\",
+        "outputPath": "D:\\Projects\\siteServer\\back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
