@@ -1,5 +1,4 @@
-# @Address = http://localhost:5179
-@Address =  https://cyan-april.duckdns.org
+@Address = http://localhost:5179
 
 GET {{Address}}/myip/
 X-API-Key: 6e1e2813b3cda938ed1df71cd7389f64355f948fce92a2dd525f90c3f3fd6e41
